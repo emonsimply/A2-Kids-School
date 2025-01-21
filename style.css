@@ -89,7 +89,42 @@
 }
 
 
+/* Banner style */
 
+#banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.banner-title-container {
+  width: 640px;
+}
+
+.banner-title-container h1 {
+  font-size: 56px;
+  font-weight: 700;
+  max-width: 550px;
+}
+
+.banner-title-container p {
+  font-size: 20px;
+  padding: 24px 0px;
+}
+
+.empowering {
+  color: #FEA301;
+}
+
+.towards-vision {
+  color: #01ACFD;
+}
+
+.banner-btn {
+  background-color: black;
+}
 
 
 
@@ -118,4 +153,35 @@
   .hamburger-logo {
     display: block;
   }
+
+
+  /* Banner style */
+
+  #banner {
+    flex-direction: column-reverse;
+    margin: 0px 16px;
+    padding: 20px 0px;
+    gap: 20px;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+
+  .banner-title-container {
+    width: auto;
+    text-align: center;
+  }
+
+  .banner-title-container h1 {
+    width: auto;
+    font-size: 32px;
+    margin: 0px 20px;
+  }
+
+  .banner-title-container p {
+    font-size: 14px;
+    padding: 18px 0px;
+  }
+
 }
