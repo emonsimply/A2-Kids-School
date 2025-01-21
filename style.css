@@ -29,6 +29,7 @@
   transform: scale(1.07);
   transition: 0.5s;
   cursor: pointer;
+  box-shadow: 0px 0px 30px #008000b2;
 }
 
 
@@ -128,6 +129,93 @@
 
 
 
+/* Standard Curriculum style */
+
+#standard-curriculum {
+  background-image: url("assets/bg.png");
+  max-width: 1440px;
+  margin: 0% auto;
+  background-repeat: no-repeat;
+  padding: 60px 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+#standard-curriculum h2 {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+#standard-curriculum p {
+  color: #808080;
+}
+
+.curriculum-container {
+  display: flex;
+  gap: 28px;
+}
+
+.curriculum-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 33px;
+  border-radius: 18px;
+  padding: 53px 40px;
+  box-shadow: 0px 0px 40px #00000010;
+  max-width: 367px;
+}
+
+.curriculum-container .card .h6 {
+  text-decoration: none;
+}
+
+.curriculum-container .card-1 {
+  background-image: linear-gradient(180deg, #DEF5FF, #ffffff 30%);
+  border: 1px solid #DEF5FF;
+}
+
+.curriculum-container .card-1 .h6 {
+  color: #64C8FF;
+}
+
+.curriculum-container .card-2 {
+  background-image: linear-gradient(180deg, #FFF4DC, #ffffff 30%);
+  border: 1px solid #FFF4DC;
+}
+
+.curriculum-container .card-2 .h6 {
+  color: #F0AA00;
+}
+
+.curriculum-container .card-3 {
+  background-image: linear-gradient(180deg, #F2E8FF, #ffffff 30%);
+  border: 1px solid #F2E8FF;
+}
+
+.curriculum-container .card-3 .h6 {
+  color: #8700FF;
+}
+
+.curriculum-arrow-container {
+  display: flex;
+  gap: 10px;
+}
+.curriculum-arrow-container img{
+  border-radius: 50%;
+}
+.curriculum-arrow-container img:hover {
+  transform: scale(1.07);
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px #fea101be;
+}
+
 
 /* Responsive Style */
 
@@ -184,4 +272,31 @@
     padding: 18px 0px;
   }
 
+
+
+  /* Standard Curriculum style */
+  #standard-curriculum {
+    padding: 40px 10px;
+    flex-direction: column;
+    gap: 20px;
+    object-fit: cover;
+  }
+
+  #standard-curriculum h2 {
+    font-size: 26px;
+  }
+
+  .curriculum-container .card {
+    padding: 36px 28px;
+    gap: 22px;
+  }
+
+  .curriculum-container {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .curriculum-arrow-container {
+    display: none;
+  }
 }
