@@ -389,15 +389,16 @@ footer {
 
 
 /* Marquee   style */
+.marquee-container {
+  /* margin: 0% auto; */
+  display: flex;
+  justify-content: center;
+}
 
 marquee {
+  background-color: #f0a8001a;
+  max-width: 1158px;
   color: #01ACFD;
-  border-top: 1px;
-  border-bottom: 1px;
-  border-left: 0;
-  border-right: 0;
-  border-style: solid;
-  border-color: #80808063;
   font-weight: 600;
   font-size: 20px;
   padding: 5px;
@@ -467,6 +468,12 @@ marquee {
   .banner-title-container p {
     font-size: 14px;
     padding: 18px 0px;
+  }
+
+  .banner-btn {
+    width: 131px;
+    height: 42px;
+    font-size: 16px;
   }
 
 
@@ -552,11 +559,13 @@ marquee {
   .footer-logo h2 {
     font-size: 35px;
   }
+
   .footer-logo img {
     width: auto;
     height: auto;
     padding-right: 10px;
   }
+
   .footer-second-div h4 {
     font-size: 20px;
     padding-bottom: 27px;
@@ -566,5 +575,12 @@ marquee {
     font-size: 22px;
     font-weight: 700;
     padding-bottom: 32px;
+  }
+
+
+
+  /* Marquee   style */
+  marquee {
+    margin-top: 10px;
   }
 }
