@@ -388,6 +388,30 @@ footer {
 }
 
 
+/* Marquee   style */
+
+marquee {
+  color: #01ACFD;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0;
+  border-right: 0;
+  border-style: solid;
+  border-color: #80808063;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Responsive Style */
