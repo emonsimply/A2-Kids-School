@@ -123,7 +123,8 @@
   color: #01ACFD;
 }
 
-.banner-btn {
+.banner-btn,
+.stories-btn {
   background-color: black;
 }
 
@@ -206,15 +207,123 @@
   display: flex;
   gap: 10px;
 }
-.curriculum-arrow-container img{
+
+.curriculum-arrow-container img {
   border-radius: 50%;
 }
+
 .curriculum-arrow-container img:hover {
   transform: scale(1.07);
   transition: 0.5s;
   cursor: pointer;
   box-shadow: 0px 0px 30px #fea101be;
 }
+
+
+
+
+/* Our Stories style */
+#our-stories {
+  background: linear-gradient(to top, #fea1012d, #fea10100), url('assets/bg.png');
+  max-width: 1440px;
+  margin: 0% auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+  padding: 60px 140px;
+}
+
+.our-stories-title {
+  font-size: 46px;
+  font-weight: 700;
+}
+
+.our-stories-card-container {
+  display: flex;
+  gap: 19px;
+}
+
+.four-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 19px;
+}
+
+#our-stories .card {
+  background-color: white;
+  border-radius: 16px;
+  width: 290px;
+  height: 301px;
+}
+
+#our-stories .card img {
+  display: block;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#our-stories .card button {
+  background-color: #95B226;
+  color: white;
+  border-style: none;
+  border-radius: 48px;
+  padding: 10px 19px;
+  position: absolute;
+  transform: translate(24%, -50%);
+}
+
+#our-stories .card h6 {
+  padding: 38px 38px 28px 38px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#our-stories .card-2 button {
+  background-color: #5D58F0;
+}
+
+#our-stories .card-3 button {
+  background-color: #5D58F0;
+}
+
+#our-stories .card-1 {
+  background-color: white;
+  border-radius: 16px;
+  width: 540px;
+  height: 622px;
+}
+
+#our-stories .card-1 img {
+  display: block;
+  width: 100%;
+  border-radius: 16px 16px 0px 0px;
+}
+
+#our-stories .card-1 button {
+  background-color: #3CD8E8;
+  color: white;
+  border-style: none;
+  border-radius: 48px;
+  padding: 15px 19px;
+  position: absolute;
+  transform: translate(24%, -50%);
+}
+
+#our-stories .card-1 h6 {
+  padding: 38px 38px 28px 38px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#our-stories .card-1 p {
+  color: #666666;
+  padding: 0px 68px 34px 38px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+
 
 
 /* Responsive Style */
@@ -298,5 +407,47 @@
 
   .curriculum-arrow-container {
     display: none;
+  }
+
+
+
+  /* Our Stories style */
+  #our-stories {
+    gap: 20px;
+    padding: 40px 0px;
+  }
+
+  .our-stories-title {
+    font-size: 26px;
+  }
+
+  #our-stories .card {
+    width: 173px;
+    height: 179px;
+  }
+
+  #our-stories .card-1 {
+    display: none;
+  }
+
+  .four-card-container {
+    gap: 11px;
+    padding: 16px 20px;
+  }
+
+  #our-stories .card button {
+    padding: 6px 11px;
+    font-size: 9px;
+  }
+
+  #our-stories .card h6 {
+    padding: 28px 23px 17px 23px;
+    font-size: 10px;
+  }
+
+  .stories-btn {
+    width: 134px;
+    height: 30px;
+    font-size: 16px;
   }
 }
